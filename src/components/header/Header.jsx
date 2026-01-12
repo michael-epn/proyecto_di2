@@ -1,5 +1,7 @@
 import './Header.css';
 import { Link } from "react-router-dom";
+import logoremarco from "../src/assets/logo-remarco.png"
+import lenteshero from "../src/assets/lentes-remarco-hero.png"
 
 const Header = () => {
   return (
@@ -7,7 +9,7 @@ const Header = () => {
         <nav class="nav">
             <div class="container nav__container">
                 <a href="#" class="logo nav__logo" aria-label="Ir al inicio">
-                    <img src="../src/assets/logo-remarco.png" alt="Logo ReMarco" class="nav__logo-img" />
+                    <img src={logoremarco} alt="Logo ReMarco" class="nav__logo-img" />
                 </a>
 
                 <ul class="nav__menu">
@@ -39,7 +41,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div class="hero__visual">
-                    <img src="../src/assets/lentes-remarco-hero.png" alt="Lentes ReMarco flexibles y modernos" class="hero__img" />
+                    <img src={lenteshero} alt="Lentes ReMarco flexibles y modernos" class="hero__img" />
                 </div>
             </div>
         </section>

@@ -1,5 +1,8 @@
 import './Gallery.css'
-
+import urbano from "../src/assets/urbano.png"
+import clasico from "../src/assets/clasico.png"
+import deportivo from "../src/assets/deportivo.png"
+import minimal from "../src/assets/minimal.png"
 const Gallery = () => {
   return (
     <section id="galeria" class="gallery">
@@ -10,28 +13,28 @@ const Gallery = () => {
             </div>
             <div class="gallery__grid">
                 <div class="gallery__item">
-                    <img src="../src/assets/urbano.png" alt="Estilo Urbano" loading="lazy" />
+                    <img src={urbano} alt="Estilo Urbano" loading="lazy" />
                     <div class="gallery__overlay">
                         <h3>Urbano</h3>
                         <p>Para la vida en movimiento</p>
                     </div>
                 </div>
                 <div class="gallery__item">
-                    <img src="../src/assets/clasico.png" alt="Estilo Clásico" loading="lazy" />
+                    <img src={clasico} alt="Estilo Clásico" loading="lazy" />
                     <div class="gallery__overlay">
                         <h3>Clásico</h3>
                         <p>Para el estilo atemporal</p>
                     </div>
                 </div>
                 <div class="gallery__item">
-                    <img src="../src/assets/deportivo.png" alt="Estilo Deportivo" loading="lazy" />
+                    <img src={deportivo} alt="Estilo Deportivo" loading="lazy" />
                     <div class="gallery__overlay">
                         <h3>Deportivo</h3>
                         <p>Para el entorno activo</p>
                     </div>
                 </div>
                 <div class="gallery__item">
-                    <img src="../src/assets/minimal.png" alt="Estilo Minimal" loading="lazy" />
+                    <img src={minimal} alt="Estilo Minimal" loading="lazy" />
                     <div class="gallery__overlay">
                         <h3>Minimal</h3>
                         <p>Para la elegancia sencilla</p>

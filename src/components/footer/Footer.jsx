@@ -1,4 +1,5 @@
 import './Footer.css'
+import logoremarco from "../src/assets/logo-remarco.png"
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
         <div class="container footer__container">
             <div class="footer__col">
                 <a href="">
-                    <img src="../src/assets/logo-remarco.png" alt="Logo ReMarco" class="footer__logo-img" />
+                    <img src={logoremarco} alt="Logo ReMarco" class="footer__logo-img" />
                 </a>
                 <p class="footer__text">Óptica inteligente para gente real. Cambia tu mirada en segundos.</p>
                 <div class="socials">

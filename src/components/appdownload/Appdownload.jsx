@@ -1,4 +1,7 @@
 import './Appdownload.css'
+import appstore from "../src/assets/App_Store_(iOS)-Badge-Logo.wine.svg"
+import googleplay from "../src/assets/Google_Play-Badge-Logo.wine.svg"
+import appmockup from "../src/assets/remarco-app-mockup.png"
 
 const Appdownload = () => {
   return (
@@ -12,15 +15,15 @@ const Appdownload = () => {
                 </p>
                 <div class="app-download__badges">
                     <a href="https://apps.apple.com/us/iphone/today" target="_blank" rel="noopener noreferrer">
-                        <img src="../src/assets/App_Store_(iOS)-Badge-Logo.wine.svg" alt="Descargar en App Store" class="app-download__badge" loading="lazy" />
+                        <img src={appstore} alt="Descargar en App Store" class="app-download__badge" loading="lazy" />
                     </a>
                     <a href="https://play.google.com/store/games?device=windows&pli=1" target="_blank" rel="noopener noreferrer">
-                        <img src="../src/assets/Google_Play-Badge-Logo.wine.svg" alt="Descargar en Google Play" class="app-download__badge" loading="lazy" />
+                        <img src={googleplay} alt="Descargar en Google Play" class="app-download__badge" loading="lazy" />
                     </a>
                 </div>
             </div>
             <div class="app-download__visual">
-                <img src="../src/assets/remarco-app-mockup.png" alt="Interfaz de la App ReMarco" class="app-download__img" loading="lazy" />
+                <img src={appmockup} alt="Interfaz de la App ReMarco" class="app-download__img" loading="lazy" />
             </div>
         </div>
     </section>
