@@ -1,0 +1,63 @@
+.solution {
+  padding: 4rem 0;
+  background-color: var(--bg-light);
+}
+
+.solution__container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.tag {
+  background-color: var(--secondary-charcoal);
+  color: var(--surface-white);
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.solution__list {
+  margin-top: 2rem;
+}
+
+.list__item {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.list__item::before {
+  content: '\f00c';
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  color: var(--primary-mint);
+  position: absolute;
+  left: 0;
+  top: 2px;
+}
+
+@media (min-width: 768px) {
+  .solution__container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .solution__visual, .solution__content {
+    flex: 1;
+  }
+
+  .solution__visual {
+    order: 1;
+  }
+
+  .solution__content {
+    order: 2;
+    padding-left: 3rem;
+  }
+}
