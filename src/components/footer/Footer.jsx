@@ -1,5 +1,5 @@
 import './Footer.css'
-import logoremarco from "../src/assets/logo-remarco.png"
+import logoremarco from "../../assets/logo-remarco.png"
 
 const Footer = () => {
   return (

@@ -1,7 +1,7 @@
 import './Header.css';
 import { Link } from "react-router-dom";
-import logoremarco from "../src/assets/logo-remarco.png"
-import lenteshero from "../src/assets/lentes-remarco-hero.png"
+import logoremarco from "../../assets/logo-remarco.png"
+import lenteshero from "../../assets/lentes-remarco-hero.png"
 
 const Header = () => {
   return (

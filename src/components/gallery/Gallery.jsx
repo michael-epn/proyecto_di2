@@ -1,8 +1,8 @@
 import './Gallery.css'
-import urbano from "../src/assets/urbano.png"
-import clasico from "../src/assets/clasico.png"
-import deportivo from "../src/assets/deportivo.png"
-import minimal from "../src/assets/minimal.png"
+import urbano from "../../assets/urbano.png"
+import clasico from "../../assets/clasico.png"
+import deportivo from "../../assets/deportivo.png"
+import minimal from "../../assets/minimal.png"
 const Gallery = () => {
   return (
     <section id="galeria" class="gallery">

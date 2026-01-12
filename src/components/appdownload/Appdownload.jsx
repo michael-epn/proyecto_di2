@@ -1,7 +1,7 @@
 import './Appdownload.css'
-import appstore from "../src/assets/App_Store_(iOS)-Badge-Logo.wine.svg"
-import googleplay from "../src/assets/Google_Play-Badge-Logo.wine.svg"
-import appmockup from "../src/assets/remarco-app-mockup.png"
+import appstore from "../../assets/App_Store_(iOS)-Badge-Logo.wine.svg"
+import googleplay from "../../assets/Google_Play-Badge-Logo.wine.svg"
+import appmockup from "../../assets/remarco-app-mockup.png"
 
 const Appdownload = () => {
   return (
