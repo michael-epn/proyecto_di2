@@ -1,11 +1,12 @@
 import './Solution.css'
+import packRemarco from "../../assets/pack-remarco.png"
 
 const solution = () => {
   return (
     <section id="solucion" class="solution">
         <div class="container solution__container">
             <div class="solution__visual">
-                <img src="../src/assets/pack-remarco.png" alt="Kit ReMarco con 3 armazones" class="solution__img" loading="lazy" />
+                <img src={packRemarco} alt="Kit ReMarco con 3 armazones" class="solution__img" loading="lazy" />
             </div>
             <div class="solution__content">
                 <span class="tag">Innovación</span>
