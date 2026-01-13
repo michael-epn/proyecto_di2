@@ -3,44 +3,46 @@ import urbano from "../../assets/urbano.png"
 import clasico from "../../assets/clasico.png"
 import deportivo from "../../assets/deportivo.png"
 import minimal from "../../assets/minimal.png"
+import { motion } from 'framer-motion';
+import { staggerContainer, scaleUp, fadeInUp } from '../../utils/animations.js';
 const Gallery = () => {
   return (
-    <section id="galeria" class="gallery">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-header__title">Estilo para cada personalidad</h2>
-                <p class="section-header__subtitle">Explora nuestra colección de armazones intercambiables.</p>
+    <section id="galeria" className="gallery">
+        <div className="container">
+            <div className="section-header">
+                <h2 className="section-header__title">Estilo para cada personalidad</h2>
+                <p className="section-header__subtitle">Explora nuestra colección de armazones intercambiables.</p>
             </div>
-            <div class="gallery__grid">
-                <div class="gallery__item">
+            <motion.div className="gallery__grid" initial="hidden" whileInView="visible" viewport={{ once: true }} variants={staggerContainer}>
+                <motion.div key={urbano} className="gallery__item" variants={scaleUp}>
                     <img src={urbano} alt="Estilo Urbano" loading="lazy" />
-                    <div class="gallery__overlay">
+                    <div className="gallery__overlay">
                         <h3>Urbano</h3>
                         <p>Para la vida en movimiento</p>
                     </div>
-                </div>
-                <div class="gallery__item">
+                </motion.div>
+                <motion.div key={clasico} className="gallery__item" variants={scaleUp}>
                     <img src={clasico} alt="Estilo Clásico" loading="lazy" />
-                    <div class="gallery__overlay">
+                    <div className="gallery__overlay">
                         <h3>Clásico</h3>
                         <p>Para el estilo atemporal</p>
                     </div>
-                </div>
-                <div class="gallery__item">
+                </motion.div>
+                <motion.div key={deportivo} className="gallery__item" variants={scaleUp}>
                     <img src={deportivo} alt="Estilo Deportivo" loading="lazy" />
-                    <div class="gallery__overlay">
+                    <div className="gallery__overlay">
                         <h3>Deportivo</h3>
                         <p>Para el entorno activo</p>
                     </div>
-                </div>
-                <div class="gallery__item">
+                </motion.div>
+                <motion.div key={minimal} className="gallery__item" variants={scaleUp}>
                     <img src={minimal} alt="Estilo Minimal" loading="lazy" />
-                    <div class="gallery__overlay">
+                    <div className="gallery__overlay">
                         <h3>Minimal</h3>
                         <p>Para la elegancia sencilla</p>
                     </div>
-                </div>
-            </div>
+                </motion.div>
+            </motion.div>
         </div>
     </section>
   )

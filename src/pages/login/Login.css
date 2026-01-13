@@ -1,0 +1,124 @@
+.login__section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-light);
+  background: linear-gradient(135deg, var(--bg-light) 0%, #e0f2ec 100%);
+}
+
+.login__container {
+  display: flex;
+  justify-content: center;
+}
+
+.login__card {
+  background-color: var(--surface-white);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(45, 52, 54, 0.08);
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid var(--border-gray);
+}
+
+.login__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.login__header h2 {
+  color: var(--secondary-charcoal);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.login__header img {
+  height: 7rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.login__header .text__muted {
+  font-size: 0.95rem;
+  color: #888;
+  margin: 0;
+}
+
+.logo__highlight {
+  color: var(--primary-mint);
+}
+
+.text__muted {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.form__group {
+  margin-bottom: 1.5rem;
+}
+
+.form__group label {
+  display: block;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+  font-size: 0.9rem;
+}
+
+.form__group input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--border-gray);
+  border-radius: 12px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: var(--bg-light);
+}
+
+.form__group input:focus {
+  outline: none;
+  border-color: var(--primary-mint);
+  background-color: var(--surface-white);
+  box-shadow: 0 0 0 4px rgba(93, 206, 163, 0.1);
+}
+
+.btn__block {
+  width: 100%;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+.form__footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.forgot__pass {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.forgot__pass:hover {
+  color: var(--primary-mint);
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .login__card {
+    padding: 1.5rem;
+    box-shadow: none;
+    background: transparent;
+    border: none;
+  }
+}

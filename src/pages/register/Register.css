@@ -1,0 +1,145 @@
+.register__section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-light);
+  background: linear-gradient(135deg, var(--bg-light) 0%, #e0f2ec 100%);
+  padding: 2rem 0;
+}
+
+.register__container {
+  display: flex;
+  justify-content: center;
+}
+
+.register__card {
+  background-color: var(--surface-white);
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(45, 52, 54, 0.08);
+  width: 100%;
+  max-width: 550px;
+  border: 1px solid var(--border-gray);
+}
+
+.register__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.register__header h2 {
+  color: var(--secondary-charcoal);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.register__header img {
+  height: 7rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.register__header .text__muted {
+  font-size: 0.95rem;
+  color: #888;
+  margin: 0;
+}
+.form__group {
+  margin-bottom: 1.2rem;
+}
+
+.form__group label {
+  display: block;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+  color: var(--text-main);
+  font-size: 0.9rem;
+}
+
+.form__group input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--border-gray);
+  border-radius: 12px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: var(--bg-light);
+}
+
+.form__group input:focus {
+  outline: none;
+  border-color: var(--primary-mint);
+  background-color: var(--surface-white);
+  box-shadow: 0 0 0 4px rgba(93, 206, 163, 0.1);
+}
+
+
+.form__row {
+  display: flex;
+  gap: 1rem;
+}
+
+.half__width {
+  flex: 1;
+}
+
+
+.form__check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.form__check input {
+  width: auto;
+  cursor: pointer;
+  accent-color: var(--primary-mint);
+}
+
+.btn__block {
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+.form__footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.text--highlight {
+  color: var(--primary-mint);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.text--highlight:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .form__row {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .register__card {
+    padding: 1.5rem;
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+  }
+}
