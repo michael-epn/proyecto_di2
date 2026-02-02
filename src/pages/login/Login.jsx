@@ -35,7 +35,7 @@ const Login = () => {
         >
           <motion.div className="login__header" initial="hidden" animate="visible" variants={staggerContainer}>
             <motion.h2 variants={fadeInUp}>Bienvenido a</motion.h2>
-            <li Link to="/landing">
+            <li NavLink to="/landing">
               <motion.img src={logoremarco} alt="Logo ReMarco" variants={fadeInUp} />
             </li>
 

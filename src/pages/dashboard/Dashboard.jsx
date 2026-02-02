@@ -98,7 +98,7 @@ const Dashboard = ({ user }) => {
             
             <header className="dashboard__header">
                 <div className="dashboard__brand">
-                    <li Link to="/landing">
+                    <li NavLink to="/landing">
                         <img src={logoremarco} alt="Logo" />
                     </li>
                 </div>
