@@ -35,7 +35,10 @@ const Login = () => {
         >
           <motion.div className="login__header" initial="hidden" animate="visible" variants={staggerContainer}>
             <motion.h2 variants={fadeInUp}>Bienvenido a</motion.h2>
-            <motion.img src={logoremarco} alt="Logo ReMarco" variants={fadeInUp} />
+            <a href="https://remarco-6900b.web.app/">
+              <motion.img src={logoremarco} alt="Logo ReMarco" variants={fadeInUp} />
+            </a>
+
             <motion.p variants={fadeInUp} className="text__muted">
               Inicia sesión para gestionar tus pedidos.
             </motion.p>
