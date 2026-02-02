@@ -98,9 +98,9 @@ const Dashboard = ({ user }) => {
             
             <header className="dashboard__header">
                 <div className="dashboard__brand">
-                    <a href="https://remarco-6900b.web.app/">
+                    <li Link to="/landing">
                         <img src={logoremarco} alt="Logo" />
-                    </a>
+                    </li>
                 </div>
                 <div className="dashboard__actions">
                     <h2>Hola <span>{user}</span></h2>
