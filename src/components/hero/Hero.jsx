@@ -15,7 +15,7 @@ const Hero = () => {
                 </p>
                 <motion.div className="hero__actions" variants={fadeInUp}>
                     <a href="#catalogo" className="btn btn--primary">Ver Catálogo</a>
-                    <a href="#demo" className="btn btn--outline">Ver Video</a>
+                    <a href="https://www.youtube.com/" className="btn btn--outline">Ver Video</a>
                 </motion.div>
             </motion.div>
             <motion.div className="hero__visual" initial="hidden" animate="visible" variants={scaleUp}>
