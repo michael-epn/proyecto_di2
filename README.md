@@ -22,4 +22,4 @@ Este proyecto fue construido utilizando herramientas de vanguardia para asegurar
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/tu-usuario/remarco.git](https://github.com/tu-usuario/remarco.git)
+   https://github.com/michael-epn/proyecto_di2.git
