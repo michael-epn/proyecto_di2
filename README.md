@@ -30,7 +30,7 @@ Sigue estos pasos para levantar el proyecto localmente. Este proceso clonará el
 https://github.com/michael-epn/proyecto_di2.git
 
 # 2. Entrar al directorio del proyecto
-cd remarco
+cd proyecto_di2
 
 # 3. Instalar todas las dependencias
 # (Esto leerá el package.json e instalará React 19, Firebase, Framer Motion, etc.)
