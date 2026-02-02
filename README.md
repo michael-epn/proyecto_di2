@@ -1,16 +1,25 @@
-# React + Vite
+# ReMarco 👓
+> **Personalidad y estilo en un solo clic.**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ReMarco** es una plataforma web moderna diseñada para una marca innovadora de armazones de lentes intercambiables. El objetivo es permitir a los usuarios gestionar su estilo de manera dinámica, ofreciendo una experiencia visual fluida y atractiva.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Características Principales
+* **Catálogo Interactivo:** Visualización detallada de marcos y frontales intercambiables.
+* **Interfaz Fluida:** Navegación optimizada con animaciones suaves para mejorar la experiencia de usuario (UX).
+* **Dashboard de Usuario:** Panel personalizado para gestionar selecciones y perfiles.
+* **Diseño Responsivo:** Totalmente adaptado para dispositivos móviles y escritorio.
 
-## React Compiler
+## 🛠️ Stack Tecnológico
+Este proyecto fue construido utilizando herramientas de vanguardia para asegurar rendimiento y escalabilidad:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React.js
+* **Estilos:** CSS3 / Framer Motion (Animaciones)
+* **Iconografía:** Lucide React / FontAwesome
 
-## Expanding the ESLint configuration
+## 📦 Instalación y Uso
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/tu-usuario/remarco.git](https://github.com/tu-usuario/remarco.git)
