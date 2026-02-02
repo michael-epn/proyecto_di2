@@ -23,7 +23,7 @@ const Contact = () => {
                     </div>
                     <div className="form__group checkbox">
                         <label className="checkbox__label">
-                            <input type="checkbox" required /> Acepto los términos y condiciones
+                            <input type="checkbox" required /> Acepto los términos y condiciones    
                         </label>
                     </div>
                     <button type="submit" className="btn btn--primary">Enviar Mensaje</button>

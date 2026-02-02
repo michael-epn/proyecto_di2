@@ -55,6 +55,23 @@
   font-size: 0.9rem;
   color: var(--text-muted);
   cursor: pointer;
+  width: fit-content;
+  line-height: 1;
+}
+
+.checkbox__label input[type="checkbox"] {
+  width: 16px; 
+  height: 16px;
+  margin: 0;
+  cursor: pointer;
+  accent-color: var(--primary-mint);
+  transform: translateY(2px);
+}
+
+.form__group.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .contact__map-wrapper {

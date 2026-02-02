@@ -15,9 +15,10 @@
 }
 
 .nav__logo-img {
-    height: 7rem;
-    width: auto;
-    display: block;
+  width: 10rem;
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .logo__highlight {

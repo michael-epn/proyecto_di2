@@ -14,7 +14,7 @@ const Hero = () => {
                     Olvídate de pagar fortunas cuando se rompen tus gafas. Con ReMarco, cambia el armazón en segundos sin herramientas.
                 </p>
                 <motion.div className="hero__actions" variants={fadeInUp}>
-                    <a href="#catalogo" className="btn btn--primary">Ver Packs</a>
+                    <a href="#catalogo" className="btn btn--primary">Ver Catálogo</a>
                     <a href="#demo" className="btn btn--outline">Ver Video</a>
                 </motion.div>
             </motion.div>

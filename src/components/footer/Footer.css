@@ -77,8 +77,8 @@
 }
 
 .footer__logo-img {
-    height: 7rem;
-    width: auto;
+    width: 10rem;
+    height: auto;
     display: block;
     margin-bottom: 1.2rem;
     filter: grayscale(100%) brightness(200%) contrast(100%);

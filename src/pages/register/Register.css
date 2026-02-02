@@ -40,8 +40,8 @@
 }
 
 .register__header img {
-  height: 7rem;
-  width: auto;
+  width: 10rem;
+  height: auto;
   object-fit: contain;
 }
 
